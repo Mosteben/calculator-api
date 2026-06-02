@@ -11,6 +11,30 @@ Backend project built with Go (Gin) + PostgreSQL + Docker
 
 - PostgreSQL database
 - Dockerized setup
+- 
+# Tech Stack
 
-## Run project
-docker-compose up --build
+- Go
+- Gin
+- PostgreSQL
+- Docker
+
+## Run
+
+```bash
+docker compose up --build
+```
+
+## API Endpoints
+
+### Login
+
+POST /login
+
+### Calculate
+
+POST /calculate
+
+### History
+
+GET /history
